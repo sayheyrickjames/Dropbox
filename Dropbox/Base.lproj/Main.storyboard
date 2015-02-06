@@ -160,6 +160,7 @@
         <scene sceneID="nQr-pE-cqs">
             <objects>
                 <navigationController id="V6d-Tu-wAc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qjz-9g-bOr"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wem-Vj-BuU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -175,7 +176,7 @@
         <!--Welcome-->
         <scene sceneID="73K-o9-z9D">
             <objects>
-                <viewController id="MPd-b0-kI2" customClass="SignInViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MPd-b0-kI2" customClass="SignInRootViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MSE-di-d51">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -563,7 +564,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="V6d-Tu-wAc" kind="modal" animates="NO" id="ZRr-d6-faZ"/>
+                                            <segue destination="V6d-Tu-wAc" kind="modal" id="zSE-Yv-zDY"/>
                                         </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="ovN-F7-dIF">
@@ -806,7 +807,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="MQD-W4-DI5" kind="modal" animates="NO" id="Ofu-jh-uez"/>
+                                            <segue destination="MQD-W4-DI5" kind="modal" id="Eb1-7e-5OP"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -957,7 +958,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="h3X-oU-keK" kind="modal" animates="NO" id="NMg-zr-pLR"/>
+                                    <segue destination="VPO-1q-eaR" kind="modal" animates="NO" id="HzV-Ul-3Mw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1002,12 +1003,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="cvY-cR-M0l"/>
-        <segue reference="6S5-Yi-xs9"/>
-        <segue reference="8UN-Qy-XW5"/>
-        <segue reference="pH0-WS-CLQ"/>
-        <segue reference="mKB-wc-5lu"/>
-        <segue reference="ZFN-Pp-OtC"/>
         <segue reference="x0q-Nf-OEE"/>
+        <segue reference="pH0-WS-CLQ"/>
+        <segue reference="zSE-Yv-zDY"/>
+        <segue reference="cvY-cR-M0l"/>
+        <segue reference="mKB-wc-5lu"/>
+        <segue reference="Eb1-7e-5OP"/>
     </inferredMetricsTieBreakers>
 </document>
