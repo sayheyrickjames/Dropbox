@@ -18,5 +18,6 @@ Completed user stories:
  * [x] Required: User can tap the area for "Having trouble signing in?"
  * [x] Required: User can log out from the Settings screen.
 
+![dropbox_user_stories2](https://cloud.githubusercontent.com/assets/1504818/6076364/682fd94a-ad97-11e4-8ccb-226cb9408139.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
