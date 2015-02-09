@@ -19,6 +19,6 @@ Completed user stories:
  * [x] Required: User can log out from the Settings screen.
  * [x] Optional: User is able to swipe through the welcome screens instead of just tapping them.
 
-![dropbox_user_stories2](https://cloud.githubusercontent.com/assets/1504818/6076364/682fd94a-ad97-11e4-8ccb-226cb9408139.gif)
+![dropbox_user_stories](https://cloud.githubusercontent.com/assets/1504818/6102356/c9f57f5a-afe9-11e4-89ac-d4a319665c92.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
