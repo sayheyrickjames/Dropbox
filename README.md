@@ -4,7 +4,7 @@ Week 1 assignment for the [CodePath](http://www.codepath.com) course [iOS Bootca
   
 This is an iOS demo application of the [Dropbox](http://www.dropbox.com) interface. 
 
-Time spent: 7 hours
+Time spent: 7.5 hours
 
 Completed user stories:
 
